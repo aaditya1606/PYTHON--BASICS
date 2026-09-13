@@ -1,0 +1,11 @@
+s={1,3,5,7,"Harry"}
+print(s,type(s))
+s.add(100)
+print(s)
+print(len(s))
+s.remove(3)
+print(s,type(s))
+s.pop()
+print(s,type(s))
+s.clear()
+print(s)

@@ -1,0 +1,11 @@
+dictionary={
+    "Harry":100,
+    "Aron":27,
+    "Mike":56
+}
+dictionary.update({"Aron":33})
+print(dictionary)
+print(dictionary.items())
+print(dictionary.keys())
+print(dictionary.values())
+print(dictionary.get("Harry"))
